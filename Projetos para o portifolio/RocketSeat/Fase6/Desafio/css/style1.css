@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+
+header{
+    height: 122px;
+    padding: 40px 0 0 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+header .list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.list span{
+    font-weight: 700;
+}
+
+.list a{
+    text-decoration: none;
+}
+
+.list a:hover{
+    color: #ffffff;
+    transition: 1s;
+}

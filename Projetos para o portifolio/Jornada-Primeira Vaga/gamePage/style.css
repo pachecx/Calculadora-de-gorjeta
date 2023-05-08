@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://pbs.twimg.com/media/E1PNswlUYAIElZA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+     
+}
+
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 714px;
+    height: 331px;
+    margin: 160px auto;
+    text-align: center;
+}
+
+.page p:first-child{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.page span{
+    color:  #FFC700;
+}
+
+.page h1{
+    font-family: 'Emilys Candy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+
+    color: #FFC700;
+}
+
+.page p:nth-child(3){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+    margin: auto;
+}
+
+.links a{
+    margin-top: 100px;
+    Padding: 12px 32px 12px 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.6);    
+}
+
+.links a:hover:first-child{
+    color: rgb(255, 255, 255);    
+    transition: 2s;
+}
+
+
+.links a:nth-child(2){
+    text-decoration: none;
+    background: #FFC700;
+    color: #040101;
+}
+
+.links a:hover:nth-child(2){
+    background: #a9870c;
+    transition: 2s;
+    
+}

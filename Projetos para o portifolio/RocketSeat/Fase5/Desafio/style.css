@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    background: linear-gradient(45deg, #190361, #bb00ff);
+		animation: gradient 10s ease infinite;
+        background-size: 200% 200%;
+    }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.hide{
+    display: none;
+}
+
+.card1,
+.card2{
+    margin: 210px auto;
+    padding: 48px 64px 64px 64px;
+    width: 428px;
+    min-height: 424px;
+    max-height: 542px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 312px;
+    max-height: 439px;
+    margin: auto;
+    align-items: center;
+}
+
+.main h1{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #34355B;
+}
+
+.main p{
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #34355B;
+
+    margin-top: 14px;
+
+}
+
+.close{
+    margin-top: 20px;
+}
+
+.close button{
+    background: #FFFFFF;
+    border: none;
+}
+
+
+
+/*screen2*/
+
+.randomMsg-card{
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 17px;
+}
+
+.randomMsg-card .phraseRandom{
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.btnTry{
+    width: 174px;
+    height: 52px;
+    background: #FF9500;
+    border-radius: 4px;
+    border: none;
+
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    margin-top: 17px;
+
+}
+
+.close:hover{
+    animation: treme 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes treme {
+    10% {transform: translate(1px, 1px) rotate(0deg);}
+    20% {transform: translate(-1px, 2px) rotate(1deg);}
+    30% {transform: translate(-2px, 3px) rotate(-1deg);}
+    40% {transform: translate(-2px, 1px) rotate(2deg);}
+    50% {transform: translate(-1px, 1px) rotate(0deg);}
+    60% {transform: translate(-1px, 3px) rotate(1deg);}
+    70% {transform: translate(-1px, -1px) rotate(2deg);}
+    80% {transform: translate(2px, 2px) rotate(0deg);}
+    90% {transform: translate(-2px, -2px) rotate(-1deg);}
+    100% {transform: translate(1px, 3px) rotate(1deg);}
+    
+}

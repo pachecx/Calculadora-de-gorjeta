@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: rgba(192, 4, 192, 0.84);
+    align-items: center;
+
+}
+
+.card,
+.soma,
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.hide{
+    display: none;
+}
+
+.card{
+    margin: 150px auto;
+    background: #fffbfb;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 10px 5px 5px rgb(62, 62, 62);
+}
+
+
+
+.card h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto 20px;
+}
+
+.soma label{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+input{
+    background: #e3e3e3;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn,
+.btnTry{
+    font-family: sans-serif;
+    font-weight: bold;
+    background: rgba(192, 4, 192, 0.84);
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border: none;
+    color: #fffbfb;
+    letter-spacing: 1px;
+    width: 200px;
+}
+
+.btn:hover,
+.btnTry:hover{
+    background: rgba(158, 12, 158, 0.84);
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.card2{
+    text-align: center;
+    border-radius: 10px;
+    background: #fffbfb;
+    box-shadow: 10px 5px 5px rgb(62, 62, 62);
+    padding: 15px;
+    width: 300px;
+    margin-top: 250px;
+}
