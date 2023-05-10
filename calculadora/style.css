@@ -23,7 +23,6 @@ header h1{
     margin: 2.8rem auto 2.4rem auto;
 }
 
-
 body{
     font-size: 1.6rem;
     background: var(--bc-body);
@@ -62,16 +61,14 @@ label{
 
 .select-tip{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .column1,
 .column2{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    
+    gap: 1.5rem;   
 }
 
 .select-tip .column1 button,
@@ -80,6 +77,5 @@ label{
     width: 15.5rem;
     border-radius: .3rem;
     border: none;
-    
 }
 
