@@ -48,7 +48,8 @@ label{
     margin-bottom: .4rem;
 }
 
-.bill input{
+.bill input,
+.qnt input{
     background: var(--bc-input);
     border: none;
     border-radius: .8rem;
@@ -59,9 +60,11 @@ label{
     margin-bottom: 2.5rem;
 }
 
+
 .select-tip{
     display: flex;
     justify-content: space-between; 
+    margin-top: 1.2rem;
 }
 
 .column1,
@@ -75,7 +78,45 @@ label{
 .select-tip .column2 button{
     height: 4.5rem;
     width: 15.5rem;
-    border-radius: .3rem;
+    border-radius: .6rem;
     border: none;
 }
 
+.column1 button,
+.column2 button{
+    background: var(--bc-options);
+    color: var(--bc-card);
+    font-weight: bold;
+    font-size: 2.1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.column2 button:last-child{
+    background: var(--bc-input);
+    color: var(--fc-h1);
+}
+
+.qnt{
+    margin: 1.8rem auto 1.2rem;
+}
+
+.qnt #quantidade{
+    margin-bottom: 2.9rem;
+}
+
+.total{
+    background: var(--bc-options);
+    min-width: 3.75rem;
+    min-height: 2.60rem;
+    border-radius: .9rem;
+    padding: 1.8rem;
+}
+
+.base-inf{
+    display: flex;
+}
+
+.values{
+ display: flex;
+ flex-direction: column;
+}
