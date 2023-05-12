@@ -114,6 +114,18 @@ label{
 
 .base-inf{
     display: flex;
+    justify-content: space-between;
+}
+
+.inf p{
+    font-family: 'Space Mono', monospace;
+    color: var(--bc-input);
+    font-size: 1.2rem;
+}
+
+.inf span{
+    color: rgba(211, 213, 211, 0.611);
+    font-size: 1.rem;
 }
 
 .values{
