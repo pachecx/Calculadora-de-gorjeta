@@ -14,6 +14,7 @@
     --bc-input: #F3F8FB;
     --bc-options: #00474B;
     --ct-input: #2A5657;
+    --btn-selected: #26C2AD;
 
 }
 
@@ -60,6 +61,12 @@ label{
     margin-bottom: 2.5rem;
 }
 
+.bill input{
+    background-image: url(./SVG/icon-dollar.svg);
+    background-repeat: no-repeat;
+    padding-top: 1.5rem;
+    background-position: left center;
+}
 
 .select-tip{
     display: flex;
@@ -117,6 +124,14 @@ label{
     justify-content: space-between;
 }
 
+.inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.9rem;
+    margin-bottom: 1.9rem;
+}
+
 .inf p{
     font-family: 'Space Mono', monospace;
     color: var(--bc-input);
@@ -131,4 +146,27 @@ label{
 .values{
  display: flex;
  flex-direction: column;
+    gap: 1.9rem;
+ align-items: center;
+}
+
+.values span{
+    color: var(--btn-selected);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.clear{
+    height: 5rem;
+    width: 28.2rem;
+    background: var(--btn-selected);
+    border-radius: .8rem;
+    border: none;
+}
+
+.clear span{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: var(--bc-options);
+    font-size: 1.6rem;
 }
