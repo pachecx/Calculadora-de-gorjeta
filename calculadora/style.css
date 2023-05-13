@@ -22,6 +22,7 @@ header h1{
     font-size: 1.6rem;
     color: var(--fc-h1);
     margin: 2.8rem auto 2.4rem auto;
+    text-align: center;
 }
 
 body{
@@ -35,7 +36,9 @@ body{
 .app{
     background: var(--bc-card);
     padding: 2.4rem;
-    width: 100vw;
+    min-width: 32.0rem;
+    max-width: 82.0rem;
+    
     border-radius: 1.2rem 1.2rem 0 0;
 
 }
@@ -65,7 +68,9 @@ label{
     background-image: url(./SVG/icon-dollar.svg);
     background-repeat: no-repeat;
     padding-top: 1.5rem;
-    background-position: left center;
+    background-position: left;
+    background-position-x: 15px;
+
 }
 
 .select-tip{
@@ -104,11 +109,17 @@ label{
 }
 
 .qnt{
-    margin: 1.8rem auto 1.2rem;
+    margin: 3.9rem auto 1.2rem;
+   
 }
 
 .qnt #quantidade{
     margin-bottom: 2.9rem;
+
+    background-image: url(./SVG/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 15px;
 }
 
 .total{
@@ -117,11 +128,13 @@ label{
     min-height: 2.60rem;
     border-radius: .9rem;
     padding: 1.8rem;
+    margin-top: 2.1rem;
 }
 
 .base-inf{
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
 }
 
 .inf{
@@ -144,10 +157,10 @@ label{
 }
 
 .values{
- display: flex;
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
     gap: 1.9rem;
- align-items: center;
+    align-items: center;
 }
 
 .values span{
@@ -158,7 +171,7 @@ label{
 
 .clear{
     height: 5rem;
-    width: 28.2rem;
+    width: 32.2rem;
     background: var(--btn-selected);
     border-radius: .8rem;
     border: none;
@@ -169,4 +182,11 @@ label{
     font-weight: bold;
     color: var(--bc-options);
     font-size: 1.6rem;
+}
+
+.bill label,
+.tip label,
+.qnt label{
+    font-weight: bold;
+    color: var(--bc-options);
 }
