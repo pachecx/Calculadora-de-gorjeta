@@ -35,17 +35,17 @@ body{
 
 .app{
     background: var(--bc-card);
-    padding: 2.4rem;
-    min-width: 32.0rem;
-    max-width: 82.0rem;
-    
+    padding: 2.1rem;
+    max-width: 32.0rem;
     border-radius: 1.2rem 1.2rem 0 0;
-
+    border: 1px solid red;
 }
 
 .bill{
     display: flex;
     flex-direction: column;
+    border: 1px solid red;
+    
 }
 
 label{
@@ -73,10 +73,16 @@ label{
 
 }
 
+.tip{
+    border: 1px solid red;
+    
+}
+
 .select-tip{
     display: flex;
     justify-content: space-between; 
     margin-top: 1.2rem;
+    
 }
 
 .column1,
@@ -89,7 +95,7 @@ label{
 .select-tip .column1 button,
 .select-tip .column2 button{
     height: 4.5rem;
-    width: 15.5rem;
+    width: 13.3rem;
     border-radius: .6rem;
     border: none;
 }
@@ -115,7 +121,7 @@ label{
 
 .qnt #quantidade{
     margin-bottom: 2.9rem;
-
+    width: 100%;
     background-image: url(./SVG/icon-person.svg);
     background-repeat: no-repeat;
     background-position: left;
@@ -169,15 +175,15 @@ label{
     font-weight: bold;
 }
 
-.clear{
+.reset{
     height: 5rem;
-    width: 32.2rem;
+    width: 100%;
     background: var(--btn-selected);
     border-radius: .8rem;
     border: none;
 }
 
-.clear span{
+.reset span{
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     color: var(--bc-options);
