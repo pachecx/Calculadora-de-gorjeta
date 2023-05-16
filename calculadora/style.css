@@ -36,15 +36,14 @@ body{
 .app{
     background: var(--bc-card);
     padding: 2.1rem;
-    max-width: 32.0rem;
+    width: 32.0rem;
     border-radius: 1.2rem 1.2rem 0 0;
-    border: 1px solid red;
 }
 
-.bill{
+.bill,
+.qnt{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     
 }
 
@@ -62,6 +61,8 @@ label{
     padding: 1.5rem;
     font-size: 2.6rem;
     margin-bottom: 2.5rem;
+    text-align: right;
+    color: #00474B;
 }
 
 .bill input{
@@ -73,10 +74,6 @@ label{
 
 }
 
-.tip{
-    border: 1px solid red;
-    
-}
 
 .select-tip{
     display: flex;
@@ -140,7 +137,6 @@ label{
 .base-inf{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 .inf{
@@ -195,4 +191,72 @@ label{
 .qnt label{
     font-weight: bold;
     color: var(--bc-options);
+}
+
+@media(min-width: 700px){
+   
+    body .app{
+    border-radius: 1.2rem;    
+    width: 920px;
+    height: 481px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+   } 
+
+   .bill{
+    margin: 16px 0;
+   }
+
+   #conta{
+    width: 37.5rem;
+   }
+
+   .select-tip{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+   }
+
+   .column1,
+   .column2{
+    display: flex;
+    flex-direction: row;
+    width: 37.5rem;
+   }
+
+   .qnt{
+    margin-top: 56px;
+   }
+
+   .qnt #quantidade{
+    width: 37.5rem;
+   }
+
+   .total{
+    padding: 40px 30px;
+    width: 453px;
+   }
+
+   .base-inf{
+    margin-bottom: 120px;
+   }
+
+   .values,
+   .inf{
+    display: flex;
+    gap: 55px;
+   }
+
+
+   .values span{
+    font-size: 32px;
+    
+   }
+
+   .reset{
+    margin-bottom: 0;
+   }
+
+ 
 }
