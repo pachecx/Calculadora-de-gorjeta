@@ -225,6 +225,10 @@ label{
     width: 37.5rem;
    }
 
+  .select-tip button:active{
+    background: #26C2AD;
+  }
+
    .qnt{
     margin-top: 56px;
    }
