@@ -19,7 +19,8 @@ Uma calculadora simples para calcular a gorjeta em restaurantes. Esta aplicaçã
 
 # Versão Desktop
 
-![Projetos_calculadora_DeskTop_index html](https://github.com/pachecx/Calculadora-de-gorjeta/assets/112892819/c221c45e-f2cc-430d-a58c-3adcf7b58958)
+![Projetos_calculadora_Desktop_index html](https://github.com/pachecx/Calculadora-de-gorjeta/assets/112892819/3eb94dd2-b6e4-47af-bed3-5f64d7bb6e93)
+
 
 <br>
 <br>
@@ -28,4 +29,5 @@ Uma calculadora simples para calcular a gorjeta em restaurantes. Esta aplicaçã
 # Versão Mobile
 
 
-![Projetos_calculadora_Mobile_index html](https://github.com/pachecx/Calculadora-de-gorjeta/assets/112892819/c77630c8-faec-4fa8-9f93-839247d67599)
+![Projetos_calculadora_Mobile_index html](https://github.com/pachecx/Calculadora-de-gorjeta/assets/112892819/571ce459-ec91-4442-98dd-50446ee33689)
+
