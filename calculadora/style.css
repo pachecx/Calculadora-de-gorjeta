@@ -179,6 +179,10 @@ label{
     border: none;
 }
 
+.hide{
+    display: none;
+   }
+
 .reset span{
     font-family: 'Space Mono', monospace;
     font-weight: bold;
@@ -261,3 +265,4 @@ label{
     margin-bottom: 0;
    }
 }
+    

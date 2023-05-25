@@ -5,13 +5,16 @@ const btn25 = document.querySelector('.tip25')
 const btn50 = document.querySelector('.tip50')
 const btnCustom = document.querySelector('.tipcustom')
 
+let valor = document.querySelector('#conta')
+let quantiidade = document.querySelector('#quantidade')
+
 
 function calcularPorcentagem(){
 
-    let conta = document.querySelector('#conta')
-    let pessoa = document.querySelector('#quantidade')
+    let conta = valor.value
+    let pessoa = quantiidade.value
 
-    result=conta + pessoa
+    result = conta + pessoa
     console.log(result)
 
-}
+} 
