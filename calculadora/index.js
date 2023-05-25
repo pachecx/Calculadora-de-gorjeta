@@ -8,13 +8,11 @@ const btnCustom = document.querySelector('.tipcustom')
 let valor = document.querySelector('#conta')
 let quantiidade = document.querySelector('#quantidade')
 
+const btnCalcular = document.querySelector('.calcular')
+const btnLimpar = document.querySelector('.limpar')
 
-function calcularPorcentagem(){
 
-    let conta = valor.value
-    let pessoa = quantiidade.value
-
-    result = conta + pessoa
-    console.log(result)
-
-} 
+btnCalcular.addEventListener('click', function(){
+    btnCalcular.classList.add('hide')
+    btnLimpar.classList.remove('hide')
+})

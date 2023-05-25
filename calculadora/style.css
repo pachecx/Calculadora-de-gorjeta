@@ -171,7 +171,8 @@ label{
     font-weight: bold;
 }
 
-.reset{
+.calcular,
+.limpar{
     height: 5rem;
     width: 100%;
     background: var(--btn-selected);
@@ -179,15 +180,16 @@ label{
     border: none;
 }
 
-.hide{
-    display: none;
-   }
-
-.reset span{
+.calcular span,
+.limpar span{
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     color: var(--bc-options);
     font-size: 1.6rem;
+}
+
+.hide{
+    display: none;
 }
 
 .bill label,
@@ -261,7 +263,7 @@ label{
     
    }
 
-   .reset{
+   .calcular{
     margin-bottom: 0;
    }
 }

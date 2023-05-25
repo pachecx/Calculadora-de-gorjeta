@@ -1,140 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+    <head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora de gorjeta</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculadora de gorjeta</title>
 
-</head>
-<body>
- 
-    <header>
-
-        <h1>
-            Calculadora <br>
-            de <br>
-            gorjeta
-        </h1>
-
-    </header>
-
-    <main>
-        <div class="app">
-
-            <div>
-                <div class="bill">
-
-                    <label>Conta</label>
-                    <input 
-                    required
-                    type="text"
-                    for="conta"
-                    id="conta"/>
+    </head>
+    <body>
     
-                </div>
-    
-                <div class="tip">
-    
-                    <label>Selecione %</label>
-                    <div class="select-tip">
+        <header>
+
+            <h1>
+                Calculadora <br>
+                de <br>
+                gorjeta
+            </h1>
+
+        </header>
+
+        <main>
+            <div class="app">
+
+                <div>
+                    <div class="bill">
+
+                        <label>Conta</label>
+                        <input 
+                        required
+                        type="text"
+                        for="conta"
+                        id="conta"/>
+        
+                    </div>
+        
+                    <div class="tip">
+        
+                        <label>Selecione %</label>
+                        <div class="select-tip">
+                            
+                            <div class="column1">
+        
+                                <button class="tip5">
+                                    5%
+                                </button>
+        
+                                <button class="tip10">
+                                    10%
+                                </button>
+        
+                                <button class="tip15">
+                                    15%
+                                </button>
+                            </div>
+        
+                            <div class="column2">
+                                <button class="tip25">
+                                    25%
+                                </button>
+                
+                                <button class="tip50">
+                                    50%
+                                </button>
+                
+                                <button class="custom">
+                                    Outra%
+                                </button>
+                            </div>
+                    </div>
+        
+                    </div>
+        
+                    <div class="qnt">
+        
+                        <label>Quantidade de pessoas</label>
+                        <input 
+                        required
+                        type="text"
+                        for="quantidade"
+                        id="quantidade"/>
                         
-                        <div class="column1">
-    
-                            <button class="tip5">
-                                5%
-                            </button>
-    
-                            <button class="tip10">
-                                10%
-                            </button>
-    
-                            <button class="tip15">
-                                15%
-                            </button>
-                        </div>
-    
-                        <div class="column2">
-                            <button class="tip25">
-                                25%
-                            </button>
-            
-                            <button class="tip50">
-                                50%
-                            </button>
-            
-                            <button class="custom">
-                                Outra%
-                            </button>
-                        </div>
-                   </div>
-    
-                </div>
-    
-                <div class="qnt">
-    
-                    <label>Quantidade de pessoas</label>
-                    <input 
-                    required
-                    type="text"
-                    for="quantidade"
-                    id="quantidade"/>
-                    
-                </div>
-            </div>
-
-            <div class="total">
-
-                <div class="base-inf">
-                    <div class="inf">
-                        <p>
-                            Gorjeta <br>
-                            <span>
-                                / pessoa
-                            </span>
-                        </p>
-    
-                        <p>
-                            Total <br>
-                            <span>
-                                / pessoa
-                            </span>
-                        </p>
-                    </div>
-    
-                    <div class="values">
-                       <span class="value1">
-                            $4.27
-                       </span>
-    
-                       <span class="valuetotal">
-                            $37.79
-                       </span>
                     </div>
                 </div>
 
-                <button class="reset">
-                    <span>
-                        Calcular 
-                    </span>
-                </button>
+                <div class="total">
 
-                <button class="reset hide">
-                    <span>
-                        Limpar 
-                    </span>
-                </button>
+                    <div class="base-inf">
+                        <div class="inf">
+                            <p>
+                                Gorjeta <br>
+                                <span>
+                                    / pessoa
+                                </span>
+                            </p>
+        
+                            <p>
+                                Total <br>
+                                <span>
+                                    / pessoa
+                                </span>
+                            </p>
+                        </div>
+        
+                        <div class="values">
+                        <span class="value1">
+                                $4.27
+                        </span>
+        
+                        <span class="valuetotal">
+                                $37.79
+                        </span>
+                        </div>
+                    </div>
+
+                    <button class="calcular">
+                        <span>
+                            Calcular 
+                        </span>
+                    </button>
+
+                    <button class="limpar hide">
+                        <span>
+                            Limpar 
+                        </span>
+                    </button>
+
+                </div>
 
             </div>
-
-        </div>
-    </main>
-    
-</body>
+        </main>
+        
+        <script src="./index.html"></script>
+    </body>
 </html>
