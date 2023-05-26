@@ -13,7 +13,9 @@ const btnLimpar = document.querySelector('.limpar')
 
 let valorPagar = document.querySelector('.valuetotal')
 
-
+function porcentagem(){
+    
+}
 
 function valorTotal(){
 

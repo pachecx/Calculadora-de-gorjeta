@@ -82,6 +82,10 @@ label{
     
 }
 
+.select-tip button:focus{
+    background: var(--btn-selected);
+}
+
 .column1,
 .column2{
     display: flex;
@@ -230,10 +234,6 @@ label{
     flex-direction: row;
     width: 37.5rem;
    }
-
-  .select-tip button:active{
-    background: #26C2AD;
-  }
 
    .qnt{
     margin-top: 56px;
